@@ -12,7 +12,6 @@ public class OppositeCheck {
 
         boolean hasOpposite = (a == -b) || (a == -c) || (b == -c);
         System.out.println(hasOpposite ? "Есть хотя бы одна пара взаимно противоположных чисел." : "Взаимно противоположных пар нет.");
-
         scanner.close();
     }
 }
