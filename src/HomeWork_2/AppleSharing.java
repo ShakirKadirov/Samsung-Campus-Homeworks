@@ -1,7 +1,7 @@
 package HomeWork_2;
 import java.util.Scanner;
 
-public class AppleDistribution {
+public class AppleSharing {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,6 +10,7 @@ public class AppleDistribution {
         int k = scanner.nextInt();
 
         int remainingApples = k % n;
+
         int studentsWithLessApples = (remainingApples > 0) ? remainingApples : 0;
 
         System.out.println(studentsWithLessApples);
@@ -17,4 +18,5 @@ public class AppleDistribution {
         scanner.close();
     }
 }
+
 
